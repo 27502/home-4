@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+
+}
+.hero_title{
+    display: flex;
+    margin-top: 70px;
+    .hero_text{
+        margin-left: 10px;
+       
+        h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 125%;
+    color: #000;
+        }
+        p{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+color: #555;
+        }
+        input{
+            width: 326px;
+height: 48px;
+background: #fff;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: #999;
+        }
+        .hero_btn{
+            width: 32px;
+height: 32px;
+background: #402f2c;
+position: relative;
+right: 50px;
+        }
+    }
+}
+@import "header"
+
+
+
+

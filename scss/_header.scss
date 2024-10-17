@@ -1,0 +1,38 @@
+:root {
+    --font-family: "Red Hat Display", sans-serif;
+    --second-family: "Roboto", sans-serif;
+  }
+ 
+.navbar_title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 70px;
+    .navbar_text{
+        display: flex;
+        gap: 40px;
+       
+        a{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: #222;
+        }
+
+    }
+    .navbar_menu{
+        display: flex;
+        gap: 23px;
+    }
+}
+@media (max-width: 700px ){
+    .navbar_text{
+        a{
+          display: none;  
+        }
+        
+      
+    }
+    
+} 
